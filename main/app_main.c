@@ -28,6 +28,7 @@
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "nvs_flash.h"
+#include "esp_log.h"
 
 #ifdef CONFIG_AT_WIFI_COMMAND_SUPPORT
 #include "esp_event.h"
