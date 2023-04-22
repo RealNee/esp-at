@@ -66,6 +66,7 @@ static void at_netif_init(void)
 
 void app_main(void)
 {
+    ESP_LOGI("AT", "Hello World");
     esp_at_main_preprocess();
     ESP_ERROR_CHECK(nvs_flash_init());
     ESP_ERROR_CHECK(esp_event_loop_create_default());
