@@ -72,6 +72,8 @@ void app_main(void)
     ESP_ERROR_CHECK(nvs_flash_init());
     ESP_ERROR_CHECK(esp_event_loop_create_default());
     at_nvs_flash_init_partition();
+    printf("Hello World\n");
+    printf("This firmware is produced by Nee");
 
     at_netif_init();
 
